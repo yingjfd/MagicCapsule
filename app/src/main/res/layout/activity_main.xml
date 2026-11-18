@@ -75,6 +75,30 @@
             android:textSize="14sp" />
 
         <TextView
+            android:id="@+id/section_maintenance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/section_maintenance"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_restart_systemui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:text="@string/restart_systemui" />
+
+        <TextView
+            android:id="@+id/restart_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restart_systemui_hint"
+            android:textSize="12sp" />
+
+        <TextView
             android:id="@+id/status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

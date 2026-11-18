@@ -75,7 +75,13 @@ if (state == STATE_COLLAPSE && keepExpanded()) {
 ## 使用
 
 桌面图标打开设置页，只有一个开关 **「胶囊不收起」**（默认开启）。
-改动后需要再次软重启 SystemUI 生效（模块运行在 SystemUI 进程里）。
+
+改完开关后需要软重启一次 SystemUI 才会生效 —— 设置页底部的 **「重启系统界面（SystemUI）」** 按钮可以直接做这件事：
+
+* 点按钮 → 二次确认 → 自动执行 `su -c killall com.android.systemui`；
+* 需要 root（KernelSU / Magisk），首次使用可能弹一次授权框；
+* 屏幕会闪一下、状态栏与导航栏重建，几秒后自动恢复；
+* 没拿到 root 时按钮会提示改用「设置 → 应用 → 显示系统进程 → 系统界面 → 强行停止」。
 
 ## 安全
 

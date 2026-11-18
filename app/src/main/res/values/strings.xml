@@ -8,7 +8,19 @@
     <string name="switch_keep_expanded_hint">开启后，灵动胶囊会一直保持展开的长条形态（图标 + 文字），不会自动收缩成只显示图标的小圆点</string>
 
     <string name="section_howto">怎么让它生效</string>
-    <string name="howto_body">1. 在 LSPosed 里启用本模块（作用于 com.android.systemui）\n2. 软重启 SystemUI：设置 → 应用 → 显示系统进程 → 系统界面 → 强行停止；或直接重启手机\n3. 播放音乐，胶囊出现后观察它是否一直保持长条</string>
+    <string name="howto_body">1. 在 LSPosed 里启用本模块（作用于 com.android.systemui）\n2. 软重启 SystemUI：用下面的按钮，或 设置 → 应用 → 显示系统进程 → 系统界面 → 强行停止\n3. 播放音乐，胶囊出现后观察它是否一直保持长条</string>
+
+    <string name="section_maintenance">维护</string>
+    <string name="restart_systemui">重启系统界面（SystemUI）</string>
+    <string name="restart_systemui_hint">改完开关后用这个按钮让 Hook 立即生效。会短暂黑屏、状态栏和导航栏重建，几秒后自动恢复；需要 root（su）权限。</string>
+    <string name="restart_confirm_title">重启系统界面？</string>
+    <string name="restart_confirm_message">屏幕会闪一下，状态栏与导航栏会重建。正在进行的操作请先保存。</string>
+    <string name="restart_confirm_ok">重启</string>
+    <string name="restart_cancel">取消</string>
+    <string name="restart_running">正在重启系统界面…</string>
+    <string name="restart_success">已发送重启命令，SystemUI 正在恢复</string>
+    <string name="restart_failed">重启失败：%1$s</string>
+    <string name="restart_no_root">没有拿到 root 权限，请手动重启 SystemUI（设置 → 应用 → 显示系统进程 → 系统界面 → 强行停止）</string>
 
     <string name="tip_scope">开启/关闭本开关需要软重启一次 SystemUI 才会生效（模块在 SystemUI 进程内工作）。</string>
     <string name="tip_saved">已保存</string>
