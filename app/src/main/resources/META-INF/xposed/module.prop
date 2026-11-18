@@ -1,0 +1,8 @@
+name=MagicCapsule
+description=让 MagicOS 灵动胶囊保持展开、不再缩成小圆点（拦截 setDisplayState 的收起状态）
+minApiVersion=101
+# LSPosed: targetVersion = extractIntPart(prop.getProperty("targetApiVersion"))
+# 缺少该键会让 extractIntPart(null) 抛 NPE，进而导致 LSPosed 整个模块列表加载失败，必须显式声明。
+targetApiVersion=102
+staticScope=true
+autoHotReload=true

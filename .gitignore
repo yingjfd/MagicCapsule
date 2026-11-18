@@ -1,0 +1,19 @@
+# 构建产物
+build/
+app/build/
+
+# Gradle
+.gradle/
+.gradle-home/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 本机环境（含 SDK 绝对路径）；离线构建时请自行创建 local.properties
+local.properties
+
+# IDE
+.idea/
+*.iml
+captures/
+
+# 说明：keystore/magiccapsule-debug.jks 是标准 Android debug keystore，
+# 有意纳入版本库 —— 它是完全离线构建（~/.android 不可写）的必要条件。

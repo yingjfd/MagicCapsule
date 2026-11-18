@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MagicCapsule</string>
+    <string name="app_desc">让 MagicOS 灵动胶囊保持展开，不再缩成小圆点</string>
+
+    <string name="section_switch">胶囊行为</string>
+    <string name="switch_keep_expanded">胶囊不收起</string>
+    <string name="switch_keep_expanded_hint">开启后，灵动胶囊会一直保持展开的长条形态（图标 + 文字），不会自动收缩成只显示图标的小圆点</string>
+
+    <string name="section_howto">怎么让它生效</string>
+    <string name="howto_body">1. 在 LSPosed 里启用本模块（作用于 com.android.systemui）\n2. 软重启 SystemUI：设置 → 应用 → 显示系统进程 → 系统界面 → 强行停止；或直接重启手机\n3. 播放音乐，胶囊出现后观察它是否一直保持长条</string>
+
+    <string name="tip_scope">开启/关闭本开关需要软重启一次 SystemUI 才会生效（模块在 SystemUI 进程内工作）。</string>
+    <string name="tip_saved">已保存</string>
+</resources>
