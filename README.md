@@ -62,8 +62,8 @@ if (state == STATE_COLLAPSE && keepExpanded()) {
 
 ## 安装
 
-1. 下载安装包：[`dist/MagicCapsule-v1.0.0.apk`](dist/MagicCapsule-v1.0.0.apk)
-   （或从 Releases 下载对应版本）；
+1. 下载安装包：[Releases · v1.0.0](https://github.com/yingjfd/MagicCapsule/releases/tag/v1.0.0)
+   （`MagicCapsule-v1.0.0.apk`；仓库内也留了一份 [`dist/`](dist)）；
 2. 在 LSPosed 管理器里**启用模块**（作用域会自动带上 `com.android.systemui`）；
 3. **软重启 SystemUI**（不需要重启手机）：
    ```bash
